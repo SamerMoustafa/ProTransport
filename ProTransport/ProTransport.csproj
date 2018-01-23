@@ -60,6 +60,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Connection\Database.cs" />
+    <Compile Include="Models\Bank.cs" />
     <Compile Include="Views\LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -106,7 +107,6 @@
     <Folder Include="Contracts\" />
     <Folder Include="Data\" />
     <Folder Include="Extensions\" />
-    <Folder Include="Models\" />
     <Folder Include="Network\" />
     <Folder Include="Reports\" />
     <Folder Include="Repositories\" />
