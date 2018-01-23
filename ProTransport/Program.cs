@@ -13,6 +13,7 @@ namespace ProTransport
         [STAThread]
         static void Main()
         {
+            //Change
             Database.Initialize();
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
