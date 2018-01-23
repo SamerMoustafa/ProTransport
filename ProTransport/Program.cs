@@ -7,7 +7,7 @@ using ProTransport.Views;
 using ProTransport.Connection;
 
 namespace ProTransport
-{  
+{
     static class Program
     {
         [STAThread]
