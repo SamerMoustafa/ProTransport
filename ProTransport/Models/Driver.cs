@@ -17,6 +17,6 @@ namespace ProTransport.Models
         public String Address { get; set; }
         public int Locked { get; set; }
         public int FavouriteCar { get; set; }
-
+        public String IdNo { get; set; }
     }
 }
