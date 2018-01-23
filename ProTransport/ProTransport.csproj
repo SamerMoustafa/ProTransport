@@ -111,8 +111,10 @@
     <Folder Include="Reports\" />
     <Folder Include="Repositories\" />
     <Folder Include="Services\" />
-    <Folder Include="SQL\" />
     <Folder Include="Test\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SQL\TransportSQL.sql" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
