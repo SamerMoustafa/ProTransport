@@ -67,6 +67,8 @@
     <Compile Include="Connection\Database.cs" />
     <Compile Include="Models\Driver.cs" />
     <Compile Include="Models\Bank.cs" />
+    <Compile Include="Models\ShippingLine.cs" />
+    <Compile Include="Models\Tour.cs" />
     <Compile Include="Views\LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
