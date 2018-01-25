@@ -65,6 +65,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Connection\Database.cs" />
+    <Compile Include="Models\BankAccount.cs" />
+    <Compile Include="Models\Client.cs" />
+    <Compile Include="Models\ContainerType.cs" />
+    <Compile Include="Models\Destinations.cs" />
     <Compile Include="Models\Driver.cs" />
     <Compile Include="Models\Bank.cs" />
     <Compile Include="Models\ShippingLine.cs" />
