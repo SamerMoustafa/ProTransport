@@ -7,6 +7,7 @@ using Dapper.Contrib.Extensions;
 
 namespace ProTransport.Models
 {
+    [Table("bank_accounts")]
     class BankAccount
     {
         [Key]

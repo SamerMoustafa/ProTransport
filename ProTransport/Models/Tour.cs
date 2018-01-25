@@ -19,5 +19,11 @@ namespace ProTransport.Models
         public int ShippingLine { get; set; }
         public String BillNo { get; set; }
         public String BookingNo { get; set; }
+        public String DeliverNo { get; set; }
+        public String ArriveDate { get; set; }
+        public String LeavingDate { get; set; }
+        public String State { get; set; }
+        public int Branched { get; set; }
+        public int Housing { get; set; }
     }
 }
