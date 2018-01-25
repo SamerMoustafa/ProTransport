@@ -68,9 +68,14 @@
     <Compile Include="Models\BankAccount.cs" />
     <Compile Include="Models\Client.cs" />
     <Compile Include="Models\ContainerType.cs" />
-    <Compile Include="Models\Destinations.cs" />
+    <Compile Include="Models\Destination.cs" />
     <Compile Include="Models\Driver.cs" />
     <Compile Include="Models\Bank.cs" />
+    <Compile Include="Models\ShippingLine.cs" />
+    <Compile Include="Models\Tour.cs" />
+    <Compile Include="Models\TourLine.cs" />
+    <Compile Include="Models\TourLinePrice.cs" />
+    <Compile Include="Models\Veichle.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Views\LoginForm.cs">
       <SubType>Form</SubType>
