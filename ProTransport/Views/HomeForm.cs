@@ -22,9 +22,14 @@ namespace ProTransport.Views
 
         private void barButtonItem1_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            AddDriverForm form = new AddDriverForm();
-            form.MdiParent = this;
-            form.Show();
+            
+        }
+
+        private void banksBtn_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            BanksForm banksForm = new BanksForm();
+            banksForm.MdiParent = this;
+            banksForm.Show();
         }
     }
 }
