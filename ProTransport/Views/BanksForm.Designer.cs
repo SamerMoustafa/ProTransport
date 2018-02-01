@@ -63,7 +63,7 @@
             this.ribbonControl1.Name = "ribbonControl1";
             this.ribbonControl1.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
             this.ribbonPage1});
-            this.ribbonControl1.Size = new System.Drawing.Size(707, 147);
+            this.ribbonControl1.Size = new System.Drawing.Size(707, 143);
             this.ribbonControl1.StatusBar = this.ribbonStatusBar1;
             // 
             // addBankBtn
@@ -82,6 +82,7 @@
             this.deleteBankBtn.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("deleteBankBtn.ImageOptions.Image")));
             this.deleteBankBtn.Name = "deleteBankBtn";
             this.deleteBankBtn.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            this.deleteBankBtn.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.deleteBankBtn_ItemClick);
             // 
             // ribbonPage1
             // 
@@ -99,10 +100,10 @@
             // 
             // ribbonStatusBar1
             // 
-            this.ribbonStatusBar1.Location = new System.Drawing.Point(0, 436);
+            this.ribbonStatusBar1.Location = new System.Drawing.Point(0, 428);
             this.ribbonStatusBar1.Name = "ribbonStatusBar1";
             this.ribbonStatusBar1.Ribbon = this.ribbonControl1;
-            this.ribbonStatusBar1.Size = new System.Drawing.Size(707, 23);
+            this.ribbonStatusBar1.Size = new System.Drawing.Size(707, 31);
             // 
             // ribbonPage2
             // 
@@ -113,11 +114,11 @@
             // 
             this.banksGridControl.DataSource = this.bankBindingSource;
             this.banksGridControl.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.banksGridControl.Location = new System.Drawing.Point(0, 147);
+            this.banksGridControl.Location = new System.Drawing.Point(0, 143);
             this.banksGridControl.MainView = this.banksGridView;
             this.banksGridControl.MenuManager = this.ribbonControl1;
             this.banksGridControl.Name = "banksGridControl";
-            this.banksGridControl.Size = new System.Drawing.Size(707, 289);
+            this.banksGridControl.Size = new System.Drawing.Size(707, 285);
             this.banksGridControl.TabIndex = 2;
             this.banksGridControl.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.banksGridView});

@@ -31,5 +31,10 @@ namespace ProTransport.Views
         {
             MessageBox.Show("Validate");
         }
+
+        private void deleteBankBtn_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+
+        }
     }
 }

@@ -87,17 +87,23 @@
     <Compile Include="Models\TourLinePrice.cs" />
     <Compile Include="Models\Veichle.cs" />
     <Compile Include="Models\User.cs" />
+    <Compile Include="Views\BanksAccountsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\BanksAccountsForm.Designer.cs">
+      <DependentUpon>BanksAccountsForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\BanksForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Views\BanksForm.Designer.cs">
       <DependentUpon>BanksForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\HomeForm.cs">
+    <Compile Include="Views\ClientsForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Views\HomeForm.Designer.cs">
-      <DependentUpon>HomeForm.cs</DependentUpon>
+    <Compile Include="Views\ClientsForm.Designer.cs">
+      <DependentUpon>ClientsForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Views\LoginForm.cs">
       <SubType>Form</SubType>
@@ -108,11 +114,14 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Views\BanksAccountsForm.resx">
+      <DependentUpon>BanksAccountsForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\BanksForm.resx">
       <DependentUpon>BanksForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\HomeForm.resx">
-      <DependentUpon>HomeForm.cs</DependentUpon>
+    <EmbeddedResource Include="Views\ClientsForm.resx">
+      <DependentUpon>ClientsForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
