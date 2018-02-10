@@ -132,7 +132,7 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::ProTransport.Properties.Resources._22;
+            //this.pictureBox2.Image = global::ProTransport.Properties.Resources._22;
             this.pictureBox2.Location = new System.Drawing.Point(12, 3);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(252, 46);

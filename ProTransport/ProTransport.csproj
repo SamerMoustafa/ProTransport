@@ -224,6 +224,7 @@
     <None Include="Resources\306473.png" />
     <None Include="Resources\1439403237_calculator-pencil.png" />
     <None Include="Resources\bank-flat.png" />
+    <Content Include="SQL\script2.sql" />
     <Content Include="SQL\TransportSQL.sql" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
