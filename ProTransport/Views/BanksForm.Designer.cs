@@ -63,7 +63,7 @@
             this.ribbonControl1.Name = "ribbonControl1";
             this.ribbonControl1.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
             this.ribbonPage1});
-            this.ribbonControl1.Size = new System.Drawing.Size(707, 143);
+            this.ribbonControl1.Size = new System.Drawing.Size(867, 143);
             this.ribbonControl1.StatusBar = this.ribbonStatusBar1;
             // 
             // addBankBtn
@@ -103,7 +103,7 @@
             this.ribbonStatusBar1.Location = new System.Drawing.Point(0, 428);
             this.ribbonStatusBar1.Name = "ribbonStatusBar1";
             this.ribbonStatusBar1.Ribbon = this.ribbonControl1;
-            this.ribbonStatusBar1.Size = new System.Drawing.Size(707, 31);
+            this.ribbonStatusBar1.Size = new System.Drawing.Size(867, 31);
             // 
             // ribbonPage2
             // 
@@ -118,10 +118,11 @@
             this.banksGridControl.MainView = this.banksGridView;
             this.banksGridControl.MenuManager = this.ribbonControl1;
             this.banksGridControl.Name = "banksGridControl";
-            this.banksGridControl.Size = new System.Drawing.Size(707, 285);
+            this.banksGridControl.Size = new System.Drawing.Size(867, 285);
             this.banksGridControl.TabIndex = 2;
             this.banksGridControl.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.banksGridView});
+            this.banksGridControl.Click += new System.EventHandler(this.banksGridControl_Click);
             // 
             // bankBindingSource
             // 
@@ -190,14 +191,13 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(707, 459);
+            this.ClientSize = new System.Drawing.Size(867, 459);
             this.Controls.Add(this.banksGridControl);
             this.Controls.Add(this.ribbonStatusBar1);
             this.Controls.Add(this.ribbonControl1);
             this.Name = "BanksForm";
             this.Ribbon = this.ribbonControl1;
             this.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.RightToLeftLayout = true;
             this.StatusBar = this.ribbonStatusBar1;
             this.Text = "BanksForm";
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).EndInit();
