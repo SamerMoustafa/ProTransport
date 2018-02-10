@@ -111,11 +111,15 @@
     <Compile Include="Views\ClientsForm.Designer.cs">
       <DependentUpon>ClientsForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\DestinationsForm.cs" />
+    <Compile Include="Views\DestinationsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Views\DestinationsForm.Designer.cs">
       <DependentUpon>DestinationsForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\driversForm.cs" />
+    <Compile Include="Views\driversForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Views\driversForm.Designer.cs">
       <DependentUpon>driversForm.cs</DependentUpon>
     </Compile>
@@ -127,15 +131,27 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Views\shippingLinesForm.cs" />
+    <Compile Include="Views\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\shippingLinesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Views\shippingLinesForm.Designer.cs">
       <DependentUpon>shippingLinesForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\userForm.cs" />
+    <Compile Include="Views\userForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Views\userForm.Designer.cs">
       <DependentUpon>userForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\veichlesForm.cs" />
+    <Compile Include="Views\veichlesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Views\veichlesForm.Designer.cs">
       <DependentUpon>veichlesForm.cs</DependentUpon>
     </Compile>
